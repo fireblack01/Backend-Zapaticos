@@ -1,0 +1,11 @@
+{
+  "name": "Backend-Zapaticos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fireblack01/Backend-Zapaticos.git",
+  "author": "LauraVeraQ <88735474+LauraVeraQ@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
