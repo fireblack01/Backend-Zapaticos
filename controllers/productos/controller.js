@@ -8,9 +8,10 @@ const queryAllProductos = async (callback) => {
 
 const crearProducto = async (datosProducto, callback) => {
   if (
-    Object.keys(datosProducto).includes('name') &&
-    Object.keys(datosProducto).includes('brand') &&
-    Object.keys(datosProducto).includes('model')
+    Object.keys(datosProducto).includes('ID') &&
+    Object.keys(datosProducto).includes('descripcion') &&
+    Object.keys(datosProducto).includes('valor_unitario') &&
+    Object.keys(datosProducto).includes('estado')
   ) {
     const baseDeDatos = getDB();
     // crear producto en la BD
